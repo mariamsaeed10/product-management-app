@@ -1,0 +1,64 @@
+.div1{
+    width: 80%; height: 30px;
+    background-color: rgb(227, 230, 230);
+    border-radius: 10%;
+    border-color: rgb(82, 175, 176);
+    color: rgb(70, 146, 147);
+}
+.div2{
+
+    width: 18%; height: 30px;
+    background-color: rgb(227, 230, 230);
+    border-radius: 3%;
+      border-color: rgb(82, 175, 176);
+      color: rgb(61, 127, 128);
+}
+button{
+    width: 80%; height: 30px;
+    background-color: rgb(19, 154, 167);
+    border-radius: 20%;
+      border-color: rgb(82, 175, 176);
+      cursor:pointer;
+}
+button:hover{
+     background-color: rgb(108, 184, 190);
+     color: azure;
+     letter-spacing: 3px;/* دا بيعمل تباعد بين الحروف*/
+}
+body{
+    color: rgb(52, 48, 48);
+     background-color: rgb(209, 211, 211);
+     text-align: center;
+     color:rgb(19, 154, 167);
+     /* align-items: center; */
+}
+input:focus{
+    background-color: antiquewhite;
+    transform: scale(1.1); /*دا بيكبر لما اقف عليها*/
+}
+#small{
+    background-color:rgb(19, 154, 167);
+    color: white;
+    
+}
+ #small::before{   /*الجزء دا بيضيف الكلمه قبل السموول */
+content: "Total : ";}
+
+.btnsch{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.btnsch button{
+   width: 40%;
+    
+}
+
+table{
+     width: 80%;
+     text-align: center;
+      padding-left: 200px;
+      margin: 20px 0;
+      /* border: solid 1px rgb(82, 175, 176); */
+}
